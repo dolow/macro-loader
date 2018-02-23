@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "esnext"
+    ],
+
+    "baseUrl": "./src",
+    "outDir": "./ts",
+    "declaration": true,
+    "sourceMap": true,
+
+    "allowJs": false,
+
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": false,
+    "moduleResolution": "node",
+
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "preserveConstEnums": false
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    ".git",
+    "node_modules",
+    "bin"
+  ],
+  "typedocOptions": {
+    "name": "macro-loader",
+    "mode": "file",
+    "out": "./docs",
+    "gitRevision": "develop",
+    "ignoreCompilerErrors": true,
+    "includeDeclarations": true,
+    "excludeExternals": true,
+    "excludePrivate": false,
+    "excludeProtected": false,
+    "excludeNotExported": false,
+    "preserveConstEnums": true
+  }
+}
